@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 04</title>
+    <link rel="stylesheet" href="styles/lab04.css">
+</head>
+<body>
+    <nav>
+        <a href="#headings">Headings</a> |
+        <a href="#lists">Lists</a> |
+        <a href="#tables">Tables</a> |
+        <a href="#images">Images</a>
+    </nav>
+
+    <h1>HTML 5 Basic Content Elements with some Simple CSS</h1>
+    <h2>Heading and Paragraphs</h2>
+    <p>HTML page without CSS styling looks a bit boring!!</p>
+
+    <h2 id="headings">Headings and Paragraphs</h2>
+    <h3 id="headings-sub">Headings</h3>
+    <p>There are 6 levels of heading.</p>
+
+    <h3>Paragraphs</h3>
+    <p>Paragraphs contain the body text of a web page.</p>
+
+    <h2>Special Characters</h2>
+    <p>Special chars: <span class="special">@</span>, <span class="special">&amp;</span>, <span class="special">&lt;</span>, <span class="special">&gt;</span></p>
+
+    <h2 id="lists">Lists</h2>
+    <ul>
+        <li>First bullet point</li>
+        <li>Second bullet point</li>
+        <li>Third bullet point</li>
+    </ul>
+
+    <ol>
+        <li>First item</li>
+        <li>Second item
+            <ul>
+                <li>First sub-item</li>
+                <li>Second sub-item</li>
+                <li>Third sub-item</li>
+            </ul>
+        </li>
+        <li>Third item</li>
+    </ol>
+
+    <h2 id="tables">Tables</h2>
+    <table>
+        <tr>
+            <th rowspan="2">Month</th>
+            <th colspan="2">Savings</th>
+        </tr>
+        <tr>
+            <th>Salary</th>
+            <th>Interest</th>
+        </tr>
+        <tr>
+            <th class="month">Jan</th>
+            <td>$60</td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <th class="month">Feb</th>
+            <td>$40</td>
+            <td>$40</td>
+        </tr>
+    </table>
+
+    <h2>Hyperlinks</h2>
+    <p><a href="https://www.blackboard.com">Blackboard</a></p>
+
+    <h2 id="images">Images</h2>
+    <p>This thumbnail image is used as a hyperlink</p>
+    <img src="images/kitten.jpg" alt="Kitten">
+
+    <aside>This is advertisement material</aside>
+
+    <footer>&copy; 2026 Lab 04</footer>
+</body>
+</html>
